@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LabelLayoutTest2.MainPage">
+			 
+    <Shell.TitleView>
+        <Grid ColumnDefinitions="*, Auto"
+              RowDefinitions="*"
+              Margin="0, 0, 10, 0"
+              BackgroundColor="White">
+
+            <Label Text="Some Text Very Pretty Text"
+                   FontSize="Large"
+                   FontFamily="Univia-Pro Medium"
+
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+
+                   BackgroundColor="Transparent"
+
+                   Grid.Column="0"
+                   Grid.Row="0"/>
+
+            <Button Grid.Column="1"
+                    Grid.Row="0"
+                    Text="++"/>
+        </Grid>
+
+    </Shell.TitleView>
+ 
+</ContentPage>
